@@ -12,6 +12,8 @@ import RenderdsPhim from './RenderWithMap/BaitapRenderDSPhim/RenderdsPhim';
 import DemoProps from './Props/DemoProps';
 import ProductListRCC from './Props/ProductListRCC';
 import PropsWithEvent from './Props/PropsWithEvent';
+import BaiTapGioHangRedux from './BaiTapGioHangRedux/BaiTapGioHangRedux';
+
 
 
 function App() {
@@ -27,7 +29,8 @@ function App() {
      {/* <RenderdsPhim/> */}
      {/* <DemoProps/> */}
      {/* <ProductListRCC/> */}
-     <PropsWithEvent/>
+     {/* <PropsWithEvent/> */}
+     <BaiTapGioHangRedux/>
     </div>
   );
 }
